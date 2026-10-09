@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portofolio dan resume digital Nama Lengkap, mahasiswa Teknik Informatika.">
+  <title>Aditya Septian | Portofolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#konten">Lompat ke konten utama</a>
+
+  <div class="page">
+
+    <header class="sidebar">
+      <div class="profile">
+        <img class="avatar" src="images/profile.jpeg" alt="Foto Aditya Septian" width="96" height="96">
+        <h1 class="name">Aditya Septian</h1>
+        <p class="role">Mahasiswa Teknik Informatika<br>UI/UX Designer</p>
+      </div>
+
+      <nav class="nav" aria-label="Navigasi utama">
+        <ul>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#pendidikan">Pendidikan</a></li>
+          <li><a href="#keahlian">Keahlian</a></li>
+          <li><a href="#proyek">Proyek</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <address class="quick-contact">
+        <a href="mailto:nama@email.com">dittsyn160@gmail.com</a>
+        <a href="https://wa.me/6281234567890">+62 881026780510</a>
+        <span>Malang, Jawa Timur</span>
+      </address>
+    </header>
+
+    <main id="konten" class="content">
+
+      <section id="tentang" class="section" aria-labelledby="judul-tentang">
+        <h2 id="judul-tentang">Tentang saya</h2>
+        <p class="lead">Saya mahasiswa semester 9 dengan fokus pada perancangan UI/UX.</p>
+        <p>Saat ini saya sedang belajar HTML, CSS, dan JavaScript, lalu mencoba menerapkannya lewat proyek kecil. Saya senang bekerja dalam tim, terbiasa mengatur jadwal tugas</p>
+      </section>
+
+      <section id="pendidikan" class="section" aria-labelledby="judul-pendidikan">
+        <h2 id="judul-pendidikan">Pendidikan</h2>
+        <ol class="timeline">
+          <li>
+            <article>
+              <h3>S1 Teknik Informatika</h3>
+              <p class="meta">Universitas Muhammadiyah Malang</p>
+              <p class="meta"><time datetime="2024-08">Agu 2022</time> sampai sekarang</p>
+              <p>Juara 3 POMPROV JATIM 2023</p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h3>SMA Al Mazaya</h3>
+              <p class="meta">Jurusan IPA</p>
+              <p class="meta"><time datetime="2010-07">2019</time> sampai <time datetime="2022-06">2022</time></p>
+            </article>
+          </li>
+        </ol>
+      </section>
+
+      <section id="keahlian" class="section" aria-labelledby="judul-keahlian">
+        <h2 id="judul-keahlian">Keahlian</h2>
+        <div class="skills">
+          <div>
+            <h3>Teknis</h3>
+            <ul class="tags">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Notion</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Non-teknis</h3>
+            <ul class="tags">
+              <li>Kerja tim</li>
+              <li>Manajemen waktu</li>
+              <li>Menulis dokumentasi</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3 class="subhead">Bahasa</h3>
+        <dl class="languages">
+          <dt>Bahasa Indonesia</dt>
+          <dd>Penutur asli</dd>
+          <dt>Bahasa Inggris</dt>
+          <dd>Menengah (membaca dokumentasi teknis)</dd>
+        </dl>
+      </section>
+
+      <section id="proyek" class="section" aria-labelledby="judul-proyek">
+        <h2 id="judul-proyek">Proyek</h2>
+        <div class="projects">
+          <article class="project">
+            <figure>
+              <div class="thumb thumb-a" role="img" aria-label="Ilustrasi proyek website proyek1"></div>
+              <figcaption>Tampilan halaman proyek1</figcaption>
+            </figure>
+            <h3>Website proyek1</h3>
+            <p>Halaman dengan pencarian sederhana dan tampilan yang menyesuaikan layar HP.</p>
+            <p class="meta">HTML, CSS, JavaScript</p>
+            <a href="#" class="link">Lihat proyek</a>
+          </article>
+
+          <article class="project">
+            <figure>
+              <div class="thumb thumb-b" role="img" aria-label="proyek2"></div>
+              <figcaption>Tampilan proyek2</figcaption>
+            </figure>
+            <h3>proyek2</h3>
+            <p>lorem ipsum dolor sit amet.</p>
+            <p class="meta">HTML, CSS, JavaScript</p>
+            <a href="#" class="link">Lihat proyek</a>
+          </article>
+
+          <article class="project">
+            <figure>
+              <div class="thumb thumb-c" role="img" aria-label="proyek3"></div>
+              <figcaption>Tampilan proyek3</figcaption>
+            </figure>
+            <h3>proyek3</h3>
+            <p>lorem ipsum dolor sit amet.</p>
+            <p class="meta">HTML, CSS, JavaScript</p>
+            <a href="#" class="link">Lihat proyek</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="kontak" class="section" aria-labelledby="judul-kontak">
+        <h2 id="judul-kontak">Kontak</h2>
+        <p>Punya pertanyaan atau ingin berkolaborasi? Kirim pesan lewat formulir ini atau hubungi langsung lewat email.</p>
+
+        <form class="form" action="#" method="post">
+          <div class="field">
+            <label for="nama">Nama</label>
+            <input type="text" id="nama" name="nama" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="pesan">Pesan</label>
+            <textarea id="pesan" name="pesan" rows="5" required></textarea>
+          </div>
+          <button type="submit">Kirim pesan</button>
+        </form>
+
+        <ul class="socials">
+          <li><a href="https://github.com/adityaseptian160" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://www.instagram.com/adt.snn" rel="noopener">Instagram</a></li>
+        </ul>
+      </section>
+
+    </main>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2026 Aditya Septian. Dibuat dengan HTML dan CSS.</p>
+  </footer>
+</body>
+</html>
